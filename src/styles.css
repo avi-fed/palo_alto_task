@@ -1,0 +1,79 @@
+ 
+.total_header{
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(23, 18, 59);
+    margin: 40px 40px 40px 40px;  
+}
+
+.center_img {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 50%;
+    width:60px;
+    height:60px;
+    color: rgb(232, 234, 239);
+}
+  
+.all_info {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+
+    border: 1px solid ;
+    border-radius: 8px; 
+}
+
+.content,
+.content:hover, 
+.title:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+  
+.title,
+.content {
+    border-top-style:outset;
+    padding: 1rem;
+    font-family: "Roboto";
+    font-size: 13px;
+    color: rgb(116, 113, 137);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+b {
+    margin-left: 20px;
+}
+
+.details {
+    background-color: white;
+    border: 1px solid ;
+    border-radius: 8px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: 600px 300px 200px 100px;
+    padding: 3px;
+}
+  
+.grid-item {
+    font-size: 13px;
+    text-align: start;
+}
+
+.grid-item_end {
+    font-size: 13px;
+    text-align: end;
+}
+
