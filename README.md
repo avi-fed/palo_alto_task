@@ -53,7 +53,7 @@ you cen also delete the files: logo.svg, App.css, App.test
 type into the index.js file the next line:
  * import './styles.css';
 
-and then type…
+and then type in the cmd…
 
 ```sh
 npm start
