@@ -18,7 +18,7 @@
 
 ##### Install the express-node.js that the server will cen run;
 
-open the cmd
+open the cmd.
 Go to the location where the server.js file is located
 and then type...
 
@@ -32,7 +32,7 @@ You should see now the following line:
 > Example app listening at http://localhost:8080
 
 ##### create the react-app for the client side;
-open the cmd
+open the cmd.
 Go to the location where the project will be located,
 and then type…
 
