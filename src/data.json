@@ -1,0 +1,102 @@
+
+[
+    {
+        "resource": "aws_s3_bucket",
+        "category": "Storage",
+        "errors": "14",
+        "creation_date": "1628406616705",
+        "details": {
+            "severity": "low",
+            "status": "error",
+            "tags": [{"name":"application_bucket"}, {"size":"10GB"}, {"region": "us_west_2"}]
+        }
+    },
+    {
+        "resource": "aws_api_gateway_api_key",
+        "category": "Storage",
+        "errors": "7",
+        "creation_date": "1628406236705",
+        "details": {
+            "severity": "high",
+            "status": "error",
+            "tags": [{"name":"application_bucket"}, {"size":"10GB"}, {"region": "us_west_2"}]
+        }
+    },
+    {
+        "resource": "aws_s3_bucket_storage",
+        "category": "Storage",
+        "errors": "3",
+        "creation_date": "1628406236725",
+        "details": {
+            "severity": "low",
+            "status": "passed",
+            "tags": [{"name":"application_bucket"}, {"size":"10GB"}, {"region": "us_west_2"}]
+        }
+    },
+    {
+        "resource": "aws_acm_certificate_validation",
+        "category": "Logging",
+        "errors": "14",
+        "creation_date": "1628406236725",
+        "details": {
+            "severity": "high",
+            "status": "error",
+            "tags": [{"name":"application_bucket"}, {"size":"10GB"}, {"region": "us_west_2"}]
+        }
+    },
+    {
+        "resource": "aws_acm_certificate_validation",
+        "category": "Secrets",
+        "errors": "14",
+        "creation_date": "1628406236725",
+        "details": {
+            "severity": "high",
+            "status": "error",
+            "tags": [{"type":"super secret secret"}, {"region": "us_west_2"}]
+        }
+    },
+    {
+        "resource": "aws_api_gateway_authorizer",
+        "category": "Networking",
+        "errors": "45",
+        "creation_date": "1628406236725",
+        "details": {
+            "severity": "high",
+            "status": "suppressed",
+            "tags": [{"name":"application_bucket"},  {"region": "us_west_2"}]
+        }
+    },
+    {
+        "resource": "aws_api_gateway_documentation_part",
+        "category": "Vulnerabilities",
+        "errors": "17",
+        "creation_date": "1638406236725",
+        "details": {
+            "severity": "high",
+            "status": "error",
+            "tags": [{"name":"application_bucket"}, {"tag":"this is a private documentation that is secret"},  {"region": "us_west_2"}]
+        }
+    },
+    {
+        "resource": "aws_api_gateway_domain_name",
+        "category": "Networking",
+        "errors": "20",
+        "creation_date": "1438406236725",
+        "details": {
+            "severity": "high",
+            "status": "error",
+            "tags": [{"name":"application_bucket"}, {"tag":"this is a private documentation that is secret"},  {"region": "us_west_2"}]
+        }
+    },
+    {
+        "resource": "aws_api_gateway_method_settings",
+        "category": "General",
+        "errors": "5",
+        "creation_date": "1638406232725",
+        "details": {
+            "severity": "high",
+            "status": "error",
+            "tags": [{"name":"application_bucket"}, {"tag":""},  {"region": "us_west_2"}]
+        }
+    }
+]
